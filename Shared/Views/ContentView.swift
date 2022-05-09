@@ -17,6 +17,7 @@ struct ContentView: View {
                 HeaderView()
                     .zIndex(1)
                 FeatureView()
+                HowWeWorkView()
             }
             .environmentObject(featureStorage)
         }

@@ -22,6 +22,8 @@
 		90EB243028289BBD0093FA5F /* FeatureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB242F28289BBD0093FA5F /* FeatureStorage.swift */; };
 		90EB243228289C7E0093FA5F /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243128289C7E0093FA5F /* FeatureView.swift */; };
 		90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243328289DAC0093FA5F /* FeatureItemView.swift */; };
+		90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243528289F5E0093FA5F /* HowWeWorkView.swift */; };
+		90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		90EB242F28289BBD0093FA5F /* FeatureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureStorage.swift; sourceTree = "<group>"; };
 		90EB243128289C7E0093FA5F /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 		90EB243328289DAC0093FA5F /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
+		90EB243528289F5E0093FA5F /* HowWeWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkView.swift; sourceTree = "<group>"; };
+		90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				90EB242B28289AAB0093FA5F /* IntroView.swift */,
 				90EB243128289C7E0093FA5F /* FeatureView.swift */,
 				90EB243328289DAC0093FA5F /* FeatureItemView.swift */,
+				90EB243528289F5E0093FA5F /* HowWeWorkView.swift */,
+				90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,7 +234,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90EB243028289BBD0093FA5F /* FeatureStorage.swift in Sources */,
+				90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */,
 				90EB243228289C7E0093FA5F /* FeatureView.swift in Sources */,
+				90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */,
 				90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */,
 				90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */,
 				90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */,
