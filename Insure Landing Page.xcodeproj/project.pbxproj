@@ -14,6 +14,8 @@
 		90EB24162828923E0093FA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EB24042828923E0093FA5F /* Assets.xcassets */; };
 		90EB24172828923E0093FA5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EB24042828923E0093FA5F /* Assets.xcassets */; };
 		90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2423282895890093FA5F /* TopNavigationView.swift */; };
+		90EB24262828962C0093FA5F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24252828962C0093FA5F /* HeaderView.swift */; };
+		90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2427282898710093FA5F /* HeaderBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		90EB240F2828923E0093FA5F /* Insure Landing Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insure Landing Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EB24112828923E0093FA5F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90EB2423282895890093FA5F /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		90EB24252828962C0093FA5F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		90EB2427282898710093FA5F /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			children = (
 				90EB24032828923D0093FA5F /* ContentView.swift */,
 				90EB2423282895890093FA5F /* TopNavigationView.swift */,
+				90EB24252828962C0093FA5F /* HeaderView.swift */,
+				90EB2427282898710093FA5F /* HeaderBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,9 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */,
 				90EB24142828923E0093FA5F /* ContentView.swift in Sources */,
 				90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */,
 				90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */,
+				90EB24262828962C0093FA5F /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
