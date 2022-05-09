@@ -16,7 +16,7 @@ struct HowWeWorkBackgroundView: View {
                 Image(decorative: "HowWeWorkPattern")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 250)
+                    .frame(width: 200)
             }
         }
         .fixedSize(horizontal: false, vertical: true)

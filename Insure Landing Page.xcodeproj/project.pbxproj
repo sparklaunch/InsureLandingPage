@@ -24,6 +24,7 @@
 		90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243328289DAC0093FA5F /* FeatureItemView.swift */; };
 		90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243528289F5E0093FA5F /* HowWeWorkView.swift */; };
 		90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */; };
+		90EB243A2828A01A0093FA5F /* HowWeWorkContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		90EB243328289DAC0093FA5F /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
 		90EB243528289F5E0093FA5F /* HowWeWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkView.swift; sourceTree = "<group>"; };
 		90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkBackgroundView.swift; sourceTree = "<group>"; };
+		90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				90EB243328289DAC0093FA5F /* FeatureItemView.swift */,
 				90EB243528289F5E0093FA5F /* HowWeWorkView.swift */,
 				90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */,
+				90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */,
 				90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */,
 				90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */,
+				90EB243A2828A01A0093FA5F /* HowWeWorkContentView.swift in Sources */,
 				90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */,
 				90EB24142828923E0093FA5F /* ContentView.swift in Sources */,
 				90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */,

@@ -11,6 +11,7 @@ struct HowWeWorkView: View {
     var body: some View {
         ZStack {
             HowWeWorkBackgroundView()
+            HowWeWorkContentView()
         }
     }
 }
