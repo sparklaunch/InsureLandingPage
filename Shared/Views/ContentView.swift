@@ -8,13 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var featureStorage: FeatureStorage = .init()
     var body: some View {
         ScrollView {
             VStack(spacing: .zero) {
                 TopNavigationView()
                 IntroView()
                 HeaderView()
+                    .zIndex(1)
+                FeatureView()
             }
+            .environmentObject(featureStorage)
         }
     }
 }
