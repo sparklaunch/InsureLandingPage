@@ -17,6 +17,7 @@
 		90EB24262828962C0093FA5F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24252828962C0093FA5F /* HeaderView.swift */; };
 		90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2427282898710093FA5F /* HeaderBackgroundView.swift */; };
 		90EB242A282898B70093FA5F /* HeaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2429282898B70093FA5F /* HeaderContentView.swift */; };
+		90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB242B28289AAB0093FA5F /* IntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		90EB24252828962C0093FA5F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90EB2427282898710093FA5F /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
 		90EB2429282898B70093FA5F /* HeaderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderContentView.swift; sourceTree = "<group>"; };
+		90EB242B28289AAB0093FA5F /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				90EB24252828962C0093FA5F /* HeaderView.swift */,
 				90EB2427282898710093FA5F /* HeaderBackgroundView.swift */,
 				90EB2429282898B70093FA5F /* HeaderContentView.swift */,
+				90EB242B28289AAB0093FA5F /* IntroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */,
 				90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */,
 				90EB24142828923E0093FA5F /* ContentView.swift in Sources */,
 				90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */,
