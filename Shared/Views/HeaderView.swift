@@ -11,7 +11,9 @@ struct HeaderView: View {
     var body: some View {
         ZStack {
             HeaderBackgroundView()
+            HeaderContentView()
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 

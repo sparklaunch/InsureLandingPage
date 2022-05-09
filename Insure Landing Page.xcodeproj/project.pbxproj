@@ -16,6 +16,7 @@
 		90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2423282895890093FA5F /* TopNavigationView.swift */; };
 		90EB24262828962C0093FA5F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24252828962C0093FA5F /* HeaderView.swift */; };
 		90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2427282898710093FA5F /* HeaderBackgroundView.swift */; };
+		90EB242A282898B70093FA5F /* HeaderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB2429282898B70093FA5F /* HeaderContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		90EB2423282895890093FA5F /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		90EB24252828962C0093FA5F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		90EB2427282898710093FA5F /* HeaderBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackgroundView.swift; sourceTree = "<group>"; };
+		90EB2429282898B70093FA5F /* HeaderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				90EB2423282895890093FA5F /* TopNavigationView.swift */,
 				90EB24252828962C0093FA5F /* HeaderView.swift */,
 				90EB2427282898710093FA5F /* HeaderBackgroundView.swift */,
+				90EB2429282898B70093FA5F /* HeaderContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */,
 				90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */,
 				90EB24262828962C0093FA5F /* HeaderView.swift in Sources */,
+				90EB242A282898B70093FA5F /* HeaderContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
