@@ -13,7 +13,11 @@ struct FooterView: View {
             FooterBackgroundView()
             VStack {
                 FooterLogoView()
+                FooterSocialMediaView()
+                Divider()
+                    .background(Color("BodyColor"))
             }
+            .padding(.horizontal, 24)
             .padding(.vertical, 100)
         }
         .fixedSize(horizontal: false, vertical: true)
