@@ -16,6 +16,7 @@ struct FooterView: View {
                 FooterSocialMediaView()
                 Divider()
                     .background(Color("BodyColor"))
+                SitemapView()
             }
             .padding(.horizontal, 24)
             .padding(.vertical, 100)
