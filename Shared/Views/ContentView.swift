@@ -18,8 +18,15 @@ struct ContentView: View {
                     .zIndex(1)
                 FeatureView()
                 HowWeWorkView()
+                    .padding(.bottom, 100)
+                FooterView()
             }
+            .padding(.top, 44)
             .environmentObject(featureStorage)
+        }
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            UIScrollView.appearance().bounces = false
         }
     }
 }

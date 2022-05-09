@@ -25,6 +25,8 @@
 		90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243528289F5E0093FA5F /* HowWeWorkView.swift */; };
 		90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */; };
 		90EB243A2828A01A0093FA5F /* HowWeWorkContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */; };
+		90EB243C2828A1660093FA5F /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243B2828A1660093FA5F /* FooterView.swift */; };
+		90EB243E2828A17B0093FA5F /* FooterBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB243D2828A17B0093FA5F /* FooterBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		90EB243528289F5E0093FA5F /* HowWeWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkView.swift; sourceTree = "<group>"; };
 		90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkBackgroundView.swift; sourceTree = "<group>"; };
 		90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeWorkContentView.swift; sourceTree = "<group>"; };
+		90EB243B2828A1660093FA5F /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		90EB243D2828A17B0093FA5F /* FooterBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 				90EB243528289F5E0093FA5F /* HowWeWorkView.swift */,
 				90EB243728289FDC0093FA5F /* HowWeWorkBackgroundView.swift */,
 				90EB24392828A01A0093FA5F /* HowWeWorkContentView.swift */,
+				90EB243B2828A1660093FA5F /* FooterView.swift */,
+				90EB243D2828A17B0093FA5F /* FooterBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				90EB243028289BBD0093FA5F /* FeatureStorage.swift in Sources */,
 				90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */,
 				90EB243228289C7E0093FA5F /* FeatureView.swift in Sources */,
+				90EB243C2828A1660093FA5F /* FooterView.swift in Sources */,
 				90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */,
 				90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */,
 				90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */,
@@ -250,6 +257,7 @@
 				90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */,
 				90EB24262828962C0093FA5F /* HeaderView.swift in Sources */,
 				90EB242A282898B70093FA5F /* HeaderContentView.swift in Sources */,
+				90EB243E2828A17B0093FA5F /* FooterBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
