@@ -9,9 +9,14 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .top) {
             FooterBackgroundView()
+            VStack {
+                FooterLogoView()
+            }
+            .padding(.vertical, 100)
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
