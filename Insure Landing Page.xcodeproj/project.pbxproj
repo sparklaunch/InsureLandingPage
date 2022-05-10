@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		90D4F1A02829F372003B7048 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F19F2829F372003B7048 /* MenuView.swift */; };
 		90D4F1A22829F389003B7048 /* MenuBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F1A12829F389003B7048 /* MenuBackgroundView.swift */; };
+		90D4F1A42829F402003B7048 /* MenuContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F1A32829F402003B7048 /* MenuContentView.swift */; };
+		90D4F1A62829F41E003B7048 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F1A52829F41E003B7048 /* MenuItem.swift */; };
+		90D4F1A82829F497003B7048 /* MenuItemStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D4F1A72829F497003B7048 /* MenuItemStorage.swift */; };
 		90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24022828923D0093FA5F /* InsureLandingPageApp.swift */; };
 		90EB24132828923E0093FA5F /* InsureLandingPageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24022828923D0093FA5F /* InsureLandingPageApp.swift */; };
 		90EB24142828923E0093FA5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB24032828923D0093FA5F /* ContentView.swift */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		90D4F19F2829F372003B7048 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		90D4F1A12829F389003B7048 /* MenuBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackgroundView.swift; sourceTree = "<group>"; };
+		90D4F1A32829F402003B7048 /* MenuContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContentView.swift; sourceTree = "<group>"; };
+		90D4F1A52829F41E003B7048 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		90D4F1A72829F497003B7048 /* MenuItemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemStorage.swift; sourceTree = "<group>"; };
 		90EB24022828923D0093FA5F /* InsureLandingPageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsureLandingPageApp.swift; sourceTree = "<group>"; };
 		90EB24032828923D0093FA5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90EB24042828923E0093FA5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 			children = (
 				90D4F19F2829F372003B7048 /* MenuView.swift */,
 				90D4F1A12829F389003B7048 /* MenuBackgroundView.swift */,
+				90D4F1A32829F402003B7048 /* MenuContentView.swift */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -138,6 +145,8 @@
 				90EB242F28289BBD0093FA5F /* FeatureStorage.swift */,
 				90EB24432828A4B70093FA5F /* SitemapSubmenu.swift */,
 				90EB24452828A55C0093FA5F /* SitemapStorage.swift */,
+				90D4F1A52829F41E003B7048 /* MenuItem.swift */,
+				90D4F1A72829F497003B7048 /* MenuItemStorage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -322,16 +331,19 @@
 				90EB243828289FDC0093FA5F /* HowWeWorkBackgroundView.swift in Sources */,
 				90EB243228289C7E0093FA5F /* FeatureView.swift in Sources */,
 				90EB243C2828A1660093FA5F /* FooterView.swift in Sources */,
+				90D4F1A42829F402003B7048 /* MenuContentView.swift in Sources */,
 				90EB243628289F5E0093FA5F /* HowWeWorkView.swift in Sources */,
 				90EB242C28289AAB0093FA5F /* IntroView.swift in Sources */,
 				90EB243428289DAC0093FA5F /* FeatureItemView.swift in Sources */,
 				90EB243A2828A01A0093FA5F /* HowWeWorkContentView.swift in Sources */,
+				90D4F1A82829F497003B7048 /* MenuItemStorage.swift in Sources */,
 				90EB2428282898710093FA5F /* HeaderBackgroundView.swift in Sources */,
 				90EB24142828923E0093FA5F /* ContentView.swift in Sources */,
 				90EB24422828A37D0093FA5F /* FooterSocialMediaView.swift in Sources */,
 				90EB24122828923E0093FA5F /* InsureLandingPageApp.swift in Sources */,
 				90EB242E28289B040093FA5F /* Feature.swift in Sources */,
 				90EB24462828A55C0093FA5F /* SitemapStorage.swift in Sources */,
+				90D4F1A62829F41E003B7048 /* MenuItem.swift in Sources */,
 				90EB24482828A6E70093FA5F /* SitemapView.swift in Sources */,
 				90D4F1A22829F389003B7048 /* MenuBackgroundView.swift in Sources */,
 				90EB2424282895890093FA5F /* TopNavigationView.swift in Sources */,
