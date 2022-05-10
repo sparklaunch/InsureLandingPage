@@ -9,6 +9,7 @@ import SwiftUI
 
 // MARK: Feature struct.
 
+/// Feature Struct.
 struct Feature: Identifiable {
     let id: UUID = .init()
     let image: Image
@@ -25,6 +26,8 @@ extension Feature {
 }
 
 extension Feature: Hashable {
+    /// Hash Function
+    /// - Parameter hasher: A hasher parameter.
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
     }
