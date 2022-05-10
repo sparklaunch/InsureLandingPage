@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var featureStorage: FeatureStorage = .init()
     @StateObject var sitemapStorage: SitemapStorage = .init()
+    @StateObject var menuItemStorage: MenuItemStorage = .init()
     var body: some View {
         ScrollView {
             VStack(spacing: .zero) {
@@ -25,6 +26,7 @@ struct ContentView: View {
             .padding(.top, 44)
             .environmentObject(featureStorage)
             .environmentObject(sitemapStorage)
+            .environmentObject(menuItemStorage)
         }
         .edgesIgnoringSafeArea(.all)
         .onAppear {
