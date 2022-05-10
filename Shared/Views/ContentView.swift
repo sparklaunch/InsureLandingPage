@@ -11,27 +11,36 @@ struct ContentView: View {
     @StateObject var featureStorage: FeatureStorage = .init()
     @StateObject var sitemapStorage: SitemapStorage = .init()
     @StateObject var menuItemStorage: MenuItemStorage = .init()
+    @StateObject var globalState: GlobalState = .init()
     var body: some View {
-        ScrollView {
-            VStack(spacing: .zero) {
-                TopNavigationView()
-                IntroView()
-                HeaderView()
-                    .zIndex(1)
-                FeatureView()
-                HowWeWorkView()
-                    .padding(.bottom, 100)
-                FooterView()
+        VStack(spacing: .zero) {
+            TopNavigationView()
+            ZStack(alignment: .top) {
+                ScrollView {
+                    VStack(spacing: .zero) {
+                        VStack(spacing: .zero) {
+                            IntroView()
+                            HeaderView()
+                                .zIndex(1)
+                            FeatureView()
+                            HowWeWorkView()
+                                .padding(.bottom, 100)
+                            FooterView()
+                        }
+                    }
+                }
+                .onAppear {
+                    UIScrollView.appearance().bounces = false
+                }
+                globalState.isMenuExpanded
+                ? MenuView()
+                : nil
             }
-            .padding(.top, 44)
-            .environmentObject(featureStorage)
-            .environmentObject(sitemapStorage)
-            .environmentObject(menuItemStorage)
         }
-        .edgesIgnoringSafeArea(.all)
-        .onAppear {
-            UIScrollView.appearance().bounces = false
-        }
+        .environmentObject(featureStorage)
+        .environmentObject(sitemapStorage)
+        .environmentObject(menuItemStorage)
+        .environmentObject(globalState)
     }
 }
 

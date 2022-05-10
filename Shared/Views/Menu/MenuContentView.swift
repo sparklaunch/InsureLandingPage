@@ -18,6 +18,7 @@ struct MenuContentView: View {
             }
             ViewPlansButtonView()
         }
+        .padding()
     }
 }
 

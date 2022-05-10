@@ -15,7 +15,6 @@ struct MenuBackgroundView: View {
                 .resizable()
                 .scaledToFit()
         }
-        .fixedSize(horizontal: false, vertical: true)
     }
 }
 
