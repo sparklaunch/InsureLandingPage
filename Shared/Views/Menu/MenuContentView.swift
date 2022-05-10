@@ -16,7 +16,7 @@ struct MenuContentView: View {
                     MenuItemView(menuItem: menuItem)
                 }
             }
-            
+            ViewPlansButtonView()
         }
     }
 }
